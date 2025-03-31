@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*For Mobiles*/
+@media only screen and (max-width:400px){
+    body{
+        background-color: #e75b60;
+    }
+}
+
+/*For Tablets*/
+@media only screen and (min-width:401px) and (max-width:960px){
+    body{
+        background-color: #F5CF8E;
+    }
+}
+
+/*For Desktops*/
+@media only screen and (min-width:961px){
+    body{
+        background-color: #B2D6FF;
+    }
+}
