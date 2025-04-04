@@ -8,13 +8,15 @@
 .page{
     display:flex;
     flex-wrap: wrap;
+
 }
 .section{
     display: flex;
     width: 100%;
     height: 300px;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    /* outline: 2px solid; */
 }
 .menu{
     background-color: #5995DA;
@@ -31,7 +33,7 @@
     background-color: #D6E9FE;
 }
 .feature1{
-    background-color: #F5CF8E;
+    background-color: #8b7f68;
 }
 .feature2{
     background-color: #F09A9D;
@@ -40,50 +42,40 @@
     background-color: #C8C6FA;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*For Mobiles*/
-@media only screen and (max-width:400px){
-    body{
-        background-color: #e75b60;
+/*Tablet Styles*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .signup,
+    .feature1,
+    .feature2,
+    .feature3{
+        width:50%;
     }
 }
 
-/*For Tablets*/
-@media only screen and (min-width:401px) and (max-width:960px){
-    body{
-        background-color: #F5CF8E;
+/*Desktop Styles*/
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+    .page{
+        width: 1000px;
+        margin: 0 auto;
     }
-}
+    .menu{
+        height: 160px;
+    }
+    .header{
+        height: 600px;
+    }
 
-/*For Desktops*/
-@media only screen and (min-width:961px){
-    body{
-        background-color: #B2D6FF;
+    .feature1,
+    .feature2,
+    .feature3{
+        width: 33.3%;
+        height: 600px;
+    }
+    .signup{
+        order: 1;
+        height: 600px;
+    }
+    .content{
+        order: 2;
     }
 }
