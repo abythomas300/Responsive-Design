@@ -29,6 +29,10 @@
     background-color: #EAEDF0;
     height: 600px;
 }
+.illustration{
+    width: 100%;
+    display: block;
+}
 .signup{
     background-color: #D6E9FE;
 }
@@ -43,7 +47,7 @@
 }
 
 /*Tablet Styles*/
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (min-width: 401px) and (max-width: 960px){
     .signup,
     .feature1,
     .feature2,
@@ -53,29 +57,28 @@
 }
 
 /*Desktop Styles*/
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 961px){
     .page{
-        margin: 0 auto;
         width: 960px;
-    }
-    .menu{
-        height: 160px;
+        margin: 0 auto;
     }
     .header{
-        height: 600px;
+        height: 400px;
     }
-
     .feature1,
     .feature2,
     .feature3{
         width: 33.3%;
-        height: 600px;
+    }
+    .header{
+        height: 400px;
     }
     .signup{
         order: 1;
-        height: 600px;
+        height: 200px;
     }
     .content{
         order: 2;
     }
+ 
 }
