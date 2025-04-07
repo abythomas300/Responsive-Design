@@ -53,10 +53,10 @@
 }
 
 /*Desktop Styles*/
-@media only screen and (min-width: 769px) and (max-width: 1279px){
+@media only screen and (min-width: 769px){
     .page{
-        width: 1000px;
         margin: 0 auto;
+        width: 960px;
     }
     .menu{
         height: 160px;
